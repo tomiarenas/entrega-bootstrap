@@ -5,6 +5,10 @@
     
 
 }
+body{
+    
+    height: 100%;
+}
 .main-wrapper{
     display: grid;
     grid-template-areas: 
@@ -15,6 +19,8 @@
     "footer footer";
     
     background-color: rgba(240, 248, 255, 0.274);
+    
+    height:100%;
 
 }
 
@@ -122,6 +128,7 @@ footer{
 .lista-redes{
     list-style:none;
     background-color: #56e7d4;
+    
 }
 .promo{
     display: flex;
@@ -268,6 +275,20 @@ background-color: #56e7d4 ;
     animation-delay: 0.5s;
 
 }
+.boton-revendedores{
+    display: flex;
+    justify-content: center;
+    padding: 1vw 1vh;
+}
+
+
+.foto-promo{
+    height: 18vh;
+    width: 30vw;
+
+}
+
+
 
 @keyframes movimiento {
     0%{
